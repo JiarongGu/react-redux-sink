@@ -4,7 +4,7 @@ description: 'Use effect to handle external effects, mostly handel async calls.'
 
 # External Request
 
-## Create a sink with effect to handle the external request
+### Create a sink with effect to handle the external request
 
 This is an example of using the effect to handle HTTP requests, using an async function
 
@@ -31,13 +31,12 @@ export class WeatherSink {
 ```
 {% endcode %}
 
-## Call effect load data in a component
+### Call effect load data in a component
 
 {% code title="Weather.jsx" %}
 ```jsx
 import * as React from 'react';
-import { sinking } from 'react-redux-sink';
-
+import { sinking } from 'redux-sink';
 import { WeatherSink } from './WeatherSink';
 
 export class Weather extends React.Component {

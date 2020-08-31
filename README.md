@@ -1,4 +1,4 @@
-# React - Redux Sink
+# Redux Sink - React
 
 [![travis](https://travis-ci.org/JiarongGu/react-redux-sink.svg?branch=master)](https://travis-ci.org/JiarongGu/react-redux-sink) [![npm version](https://badge.fury.io/js/react-redux-sink.svg)](https://badge.fury.io/js/react-redux-sink) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ee58187b2e794033aeb4296f128fd3ee)](https://app.codacy.com/app/JiarongGu/redux-sink?utm_source=github.com&utm_medium=referral&utm_content=JiarongGu/redux-sink&utm_campaign=Badge_Grade_Dashboard)
 

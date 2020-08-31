@@ -4,15 +4,14 @@ description: subscribe to selected state
 
 # Subscriber
 
-use subscriber on `useSink` or `sinking` can make component only subscribe changes on selected state of the sink.
+use subscriber on `useSink` or `sinking` can make component only subscribe changes on selected state  of the sink.
 
 The default value is `true`, set the value to `false` it will not auto-update on any state, or you can use the subscriber function like the example below
 
-## useSink
+### useSink
 
 ```jsx
-import { state, sink } from 'redux-sink';
-import { useSink } from 'react-redux-sink';
+import { state, sink, useSink } from 'redux-sink';
 
 @sink('counter')
 export class CounterSink {
@@ -35,10 +34,10 @@ export const Counter = () => {
 }
 ```
 
-## sinking
+### sinking
 
 ```jsx
-import { sinking } from 'react-redux-sink';
+import { sinking } from 'redux-sink';
 
 export const SinkingCounter = sinking(CounterSink, (sink) => [sink.state])(Counter)
 ```

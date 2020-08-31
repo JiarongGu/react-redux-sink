@@ -1,6 +1,6 @@
 # Table of contents
 
-* [React - Redux Sink](README.md)
+* [Redux Sink - React](README.md)
 * [Examples](examples/README.md)
   * [Simple Counter](examples/simple-counter.md)
   * [Simple Trigger](examples/simple-trigger.md)
