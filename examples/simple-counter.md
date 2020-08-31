@@ -4,7 +4,7 @@ description: Use state to create a simple counter component
 
 # Simple Counter
 
-### Create CounterSink
+## Create CounterSink
 
 Sink states maps dispatch automatically to the component. so you don't have to create action or reducer.
 
@@ -19,11 +19,11 @@ export class CounterSink {
 ```
 {% endcode %}
 
-### Use external state without dispatches
+## Use external state without dispatches
 
 {% code title="Counter.jsx" %}
 ```jsx
-import { useSink } from 'redux-sink';
+import { useSink } from 'react-redux-sink';
 import { CounterSink } from './counter-sink';
 
 export const Counter = () => {
@@ -41,6 +41,6 @@ export const Counter = () => {
 {% endcode %}
 
 {% hint style="warning" %}
-The two-way update for the state is based on ****[defineProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty), so when updating object or array you still need to update the whole object reference. For example [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) or [Array.contact](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
+The two-way update for the state is based on _\*\*_[defineProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty), so when updating object or array you still need to update the whole object reference. For example [Object.assign](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) or [Array.contact](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 {% endhint %}
 

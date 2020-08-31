@@ -89,7 +89,7 @@ Use state or effect to update sink value in a component like an example above. b
 use sinking without the decorator
 
 ```jsx
-import { sinking } from 'redux-sink';
+import { sinking } from 'react-redux-sink';
 
 export const Component = sinking(CounterSink)(ComponentClass);
 ```
@@ -97,7 +97,7 @@ export const Component = sinking(CounterSink)(ComponentClass);
 use sink by hooks, require `react-redux: ^7.1.0`
 
 ```jsx
-import { useSink } from 'redux-sink';
+import { useSink } from 'react-redux-sink';
 import { CounterSink } from './CounterSink';
 
 const Component = () => {
