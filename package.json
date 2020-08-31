@@ -1,0 +1,63 @@
+{
+  "name": "react-redux-sink",
+  "version": "0.1.0",
+  "description": "redux sink for less redux boilerplate",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rimraf lib/ && node ./node_modules/typescript/bin/tsc",
+    "test": "mocha -r ts-node/register test/**/*.test.ts*",
+    "test-single": "mocha -r ts-node/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiarongGu/redux-sink.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "react-redux",
+    "redux-sink"
+  ],
+  "author": "Jiarong Gu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JiarongGu/redux-sink/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/JiarongGu/redux-sink#readme",
+  "peerDependencies": {
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^5.2.7",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/redux": "^3.6.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "redux-sink": "^1.0.0"
+  }
+}
