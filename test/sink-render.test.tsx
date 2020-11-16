@@ -3,10 +3,9 @@ import * as React from 'react';
 import { renderToString } from 'react-dom/server';
 import { Provider } from 'react-redux';
 import { Store } from 'redux';
-import { AnyFunction } from 'redux-sink';
 
 import { createFactory } from './utils';
-import { createSinking, createUseSink, useSink } from '../src';
+import { AnyFunction, createSinking, createUseSink, useSink } from '../src';
 import { TestSink, TestSink2 } from './sinks';
 
 describe('sink render test', () => {

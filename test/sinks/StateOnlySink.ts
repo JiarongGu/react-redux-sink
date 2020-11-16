@@ -1,4 +1,4 @@
-import { sink, state } from 'redux-sink';
+import { sink, state } from "../../src";
 
 @sink('stateOnly')
 export class StateOnlySink {

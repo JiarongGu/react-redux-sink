@@ -1,4 +1,4 @@
-import { sink, effect } from 'redux-sink';
+import { sink, effect } from '../../src';
 
 import { TestSink } from './TestSink';
 

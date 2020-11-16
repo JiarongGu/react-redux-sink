@@ -1,4 +1,4 @@
-import { sink, state, effect, trigger } from 'redux-sink';
+import { sink, state, effect, trigger } from '../../src';
 
 export interface TestState {
   name: string;

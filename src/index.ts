@@ -25,3 +25,5 @@ export const createSinking = _createSinking;
  * create useSink hook use SinkContainer
  */
 export const createUseSink = _createUseSink;
+
+export * from 'redux-sink';

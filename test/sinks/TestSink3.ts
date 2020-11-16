@@ -1,4 +1,4 @@
-import { sink, state, effect } from 'redux-sink';
+import { sink, state, effect } from '../../src';
 
 @sink('testSink3')
 export class TestSink3 {
